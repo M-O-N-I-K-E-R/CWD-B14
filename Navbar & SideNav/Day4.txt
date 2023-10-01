@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!--Font Awesome link-->
+    <script src="https://kit.fontawesome.com/3feec6a5df.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--Material icons link-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!--Google Font 1-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+
+    <!--Google Font 2-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lato:wght@100;400&family=Roboto:wght@100&display=swap"
+        rel="stylesheet">
+
+    <!--Google Font 3-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Anton&family=Lato:wght@100;400&family=Roboto:wght@100&display=swap"
+        rel="stylesheet">
+
+    <title>The Collection</title>
+
+</head>
+
+<style>
+    .custom-font {
+        font-family: 'Abril Fatface', cursive;
+        color: #000000;
+        font-size: 30px;
+    }
+
+    .custom-font-two {
+        font-family: 'Lato', sans-serif;
+    }
+
+    .custom-font-three {
+        font-family: 'Anton', sans-serif;
+        font-weight: 200px;
+        font-size: 40px;
+    }
+
+    h7 {
+        color: #000000;
+        font-weight: 600;
+
+    }
+
+    .new-releases {
+        display: grid;
+        grid-template-columns: repeat(4, 2fr);
+        gap: 10px;
+        text-align: left;
+    }
+
+    .img-container {
+        transition: all 0.3s ease;
+    }
+
+    .img-container:hover {
+        opacity: 0.7;
+    }
+</style>
+<body style="overflow-x: hidden">
+
+    <nav>
+        <div class="nav-wrapper black  ">
+            <a href="https://fontawesome.com/" data-target="mobile-demo" class="sidenav-trigger show-on-large">
+                <i class="fa-solid fa-bars"></i></a>
+
+            <ul class="sidenav" id="mobile-demo">
+                <i class="fa-solid fa-bars"></i></a>
+                <div class="custom-font container">The Collections: </div>
+                <li><a href="https://www.nike.com/ph/w/mens-jordan-37eefznik1">MEN</a></li>
+                <li><a href="https://www.nike.com/ph/w/womens-jordan-37eefz5e1x6">WOMEN</a></li>
+                <li><a href="https://www.nike.com/ph/w/kids-jordan-37eefzv4dh">KIDS</a></li>
+                <li><a
+                        href="https://www.nike.com/ph/w/jordan-accessories-equipment-37eefz3rauvz5e1x6zawwpwznik1">ACCESSORIES</a>
+                </li>
+            </ul>
+
+            <a href="https://fontawesome.com/" class="brand-logo white-text custom-font" style="padding-left:6% "
+                target="_blank">
+                <i class="fa-solid fa-shoe-prints"></i>The Collection
+            </a>
+
+            <form>
+                <div class="input-field right">
+                    <input id="search" type="search" required>
+                    <label class="label-icon" for="search"><i class="material-icons show-on-small">search</i></label>
+                    <i class="material-icons">close</i>
+                </div>
+            </form>
+
+        </div>
+
+        <div class="nav-wrapper black" style="text-align: center; display: flex; justify-content: center;">
+            <a href="https://fontawesome.com/" data-target="mobile-demo" class="sidenav-trigger">
+                <ul class="hide-on-med-and-down custom-font-two" style="list-style: none; padding: 0;">
+                    <li><a href="https://www.nike.com/ph/w/mens-jordan-37eefznik1">MEN</a></li>
+                    <li><a href="https://www.nike.com/ph/w/womens-jordan-37eefz5e1x6">WOMEN</a></li>
+                    <li><a href="https://www.nike.com/ph/w/kids-jordan-37eefzv4dh">KIDS</a></li>
+                    <li><a
+                            href="https://www.nike.com/ph/w/jordan-accessories-equipment-37eefz3rauvz5e1x6zawwpwznik1">ACCESSORIES</a>
+                    </li>
+                </ul>
+            </a>
+        </div>
+
+        <div class="nav-content">
+
+        </div>
+    </nav>
+
+    <div class="card-panel" style="margin-top: 0%;"></div>
+    <div class="slider" id="slider-one">
+        <ul class="slides">
+            <li>
+                <img
+                    src="https://getwallpapers.com/wallpaper/full/7/a/b/769515-full-size-michael-jordan-quote-wallpaper-1920x1080.jpg">
+            </li>
+            <li>
+                <img src="https://i.pinimg.com/originals/b8/d3/3e/b8d33e4a0e8fb1fc2044296cd44eb422.jpg">
+            </li>
+            <li>
+                <img
+                    src="https://getwallpapers.com/wallpaper/full/2/4/8/769502-michael-jordan-quote-wallpaper-2560x1600-for-android-40.jpg">
+            </li>
+        </ul>
+    </div>
+
+    <br>
+    <div class="divider"></div>
+    <br>
+
+    <div class="custom-font-three" style="padding-left:4%">
+        <blockquote> Michael Jordan | The Last Dance </blockquote>
+    </div>
+    <div class="center"> <iframe width="1000" height="500" src="https://www.youtube.com/embed/JQk2hJs2ToA"
+            title="The Last Dance | Relive the Phenomenon | Netflix" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+    </div>
+    <br>
+
+    <div class="divider"></div>
+    <br>
+
+    <div class="custom-font-three" style="padding-left:4%">
+        New Releases:
+    </div>
+    <br>
+
+    <div class="new-releases" style="padding-left: 4%;">
+        <div>
+            <a href="https://www.nike.com/ph/t/air-jordan-1-high-og-older-shoes-2xBRSk/FD1437-020">
+                <div class="img-container ">
+                    <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/1ac52de0-577e-48c0-a691-a79aacac1426/air-jordan-1-high-og-older-shoes-2xBRSk.png"
+                        width="275" height="275">
+                </div>
+
+                <br>
+                <h7>Air Jordan 1 High OG</h7><br>
+                <h7>Older Kids' Shoes</h7><br>
+                <h7>₱6,445</h7>
+            </a>
+        </div>
+
+        <div>
+            <a href="https://www.nike.com/ph/t/air-jordan-1-low-se-shoes-HJ25ns/FN7670-493">
+                <div class="img-container">
+                    <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/2a28c75a-2b42-443e-97dc-ace2e744b2af/air-jordan-1-low-se-shoes-HJ25ns.png"
+                        width="275" height="275">
+                </div>
+                <br>
+                <h7>Air Jordan 1 Low SE</h7><br>
+                <h7>Men's Shoes</h7><br>
+                <h7>₱7,395</h7>
+            </a>
+        </div>
+
+        <div>
+            <a href="https://www.nike.com/ph/t/air-jordan-1-low-g-golf-shoes-8bKbqs/DD9315-003">
+                <div class="img-container">
+                    <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/1398e462-df70-41ac-8ac9-865153dd7325/air-jordan-1-low-g-golf-shoes-8bKbqs.png"
+                        width="275" height="275">
+                </div>
+                <br>
+                <h7>Air Jordan 1 Low G</h7><br>
+                <h7>Golf Shoes</h7><br>
+                <h7>₱7,595</h7>
+            </a>
+        </div>
+
+        <div>
+            <a href="https://www.nike.com/ph/t/air-jordan-4-retro-shoes-VrTVTm/AQ9129-001">
+                <div class="img-container">
+                    <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/ae6035e4-977d-476a-bf95-35bcd86c9d54/air-jordan-4-retro-shoes-VrTVTm.png"
+                        width="275" height="275">
+                </div>
+                <br>
+                <h7>Air Jordan 4 Retro</h7><br>
+                <h7>Women's Shoes</h7><br>
+                <h7>₱11,295</h7>
+            </a>
+        </div>
+
+        <div>
+            <a href="https://www.nike.com/ph/t/tatum-1-home-team-pf-basketball-shoes-JbXhDt/DZ3330-108">
+                <div class="img-container">
+                    <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/7a18bc7b-c588-454d-9bf8-dd3e19f3494b/tatum-1-home-team-pf-basketball-shoes-JbXhDt.png"
+                        width="275" height="275">
+                </div>
+                <br>
+                <h7>Tatum 1 'Home Team' PF</h7><br>
+                <h7>Basketball Shoes</h7><br>
+                <h7>₱6,895</h7>
+            </a>
+        </div>
+
+        <div>
+            <a href="https://www.nike.com/ph/t/jordan-post-slides-l46X9x/DX5575-700">
+                <div class="img-container">
+                    <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/8a37e1c6-0cc9-41de-8724-2501ac4ce15d/jordan-post-slides-l46X9x.png"
+                        width="275" height="275">
+                </div>
+                <br>
+                <h7>Jordan Post</h7><br>
+                <h7>Men's Slides</h7><br>
+                <h7>₱1,695</h7>
+            </a>
+        </div>
+
+        <div>
+            <a href="https://www.nike.com/ph/t/jordan-stay-loyal-2-shoes-sDkgDk/DQ8401-103">
+                <div class="img-container">
+                    <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/8ba3216b-1961-453e-9407-685cd6b3360d/jordan-stay-loyal-2-shoes-sDkgDk.png"
+                        width="275" height="275">
+                </div>
+                <br>
+                <h7>Jordan Stay Loyal 2</h7><br>
+                <h7>Men's Shoes</h7><br>
+                <h7>₱6,395</h7>
+            </a>
+        </div>
+
+        <div>
+            <a href="https://www.nike.com/ph/launch/t/big-kids-air-jordan-4-outdoor-explorer">
+                <div class="img-container">
+                    <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/d4b9aa25-9c61-4f87-b740-09042ecb47b9/air-jordan-4-retro-older-shoes.png"
+                        width="275" height="275">
+                </div>
+                <br>
+                <h7>Older Kids' Air Jordan 4</h7><br>
+                <h7>Outdoor explorer</h7><br>
+                <h7>₱7,195.00</h7>
+            </a>
+        </div>
+    </div>
+    </div>
+    <br>
+    <br>
+
+    <footer class="page-footer black" style="margin-bottom: 0%; width:100vw">
+        <div class="container">
+            <div class="row" style="margin-bottom: 0%;">
+                <div class="col s12 center-align white-text">
+                    <p>2023 The Collection ®</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Jquery CDN -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <script>
+
+        $(document).ready(function () {
+
+            $('.materialboxed').materialbox();
+
+            $('.sidenav').sidenav();
+
+            $('#slider-one').slider({
+                height: 550
+            });
+        });
+
+    </script>
+</body>
+
+</html>

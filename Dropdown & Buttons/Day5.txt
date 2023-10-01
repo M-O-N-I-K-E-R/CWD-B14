@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Font Awesome Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--Material icons link-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!--Google Font 1-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alfa+Slab+One&family=Vidaloka&display=swap"
+        rel="stylesheet">
+
+    <!--Google Font 2-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alfa+Slab+One&family=Barlow:wght@100&family=Vidaloka&display=swap"
+        rel="stylesheet">
+
+    <!--Google Font 3-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Holtwood+One+SC&display=swap"
+        rel="stylesheet">
+
+    <title>McLaren Automotives</title>
+
+</head>
+
+<body style="overflow-x: hidden">
+
+    <style>
+        .font-one {
+            font-family: 'Vidaloka', serif;
+            color: #000000;
+            font-size: 20px;
+            font-weight: bolder;
+
+        }
+
+        .font-two {
+            font-family: 'Barlow', sans-serif;
+            color: #000000;
+            font-size: 18px;
+            align-items: center;
+            font-weight: bold;
+            text-align: justify;
+            text-justify: inter-word;
+        }
+
+        .font-three {
+            font-family: 'Bebas Neue', sans-serif;
+            color: #000000;
+            font-size: 50px;
+            text-align: justify;
+            text-justify: inter-word;
+
+        }
+
+        .dropdown1 {
+
+            height: 10px;
+            width: 20px;
+        }
+
+        .dropdown-one,
+        .dropdown-two,
+        .dropdown-three,
+        dropdown-four,
+        dropdown-five {
+            align-items: center;
+            width: 200px;
+            height: auto;
+            transition: all 0.3s ease;
+            /* display: flex; */
+            flex-direction: column;
+            align-items: center;
+            overflow: hidden;
+
+        }
+
+        .img-container:hover {
+            opacity: 0.7;
+        }
+
+        .img-container img {
+            max-width: 100%;
+            max-height: 100%;
+        }
+
+        .parallax-container {
+            height: "50";
+        }
+    </style>
+
+
+    <nav class="grey">
+
+        <!-- Dropdown Structure Main-->
+        <ul id="dropdown1" class="dropdown-content font-two">
+            <li>
+                <a class="center-align" href="https://cars.mclaren.com/en/750s">
+                    <div class="img-container"><img class="dropdown-one"
+                            src="https://cars.mclaren.com/content/dam/mclaren-automotive/models/model-navigation/super-series/750S.png">
+                        <br>750S
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a class="center-align" href="https://cars.mclaren.com/en/750s-spider">
+                    <div class="img-container"><img class="dropdown-two"
+                            src="https://cars.mclaren.com/content/dam/mclaren-automotive/models/model-navigation/super-series/750S_spider.png">
+                        <br>750S SPIDER
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a class="center-align" href="https://cars.mclaren.com/en/artura">
+                    <div class="img-container"><img class="dropdown-three"
+                            src="https://mclaren.scene7.com/is/image/mclaren/P16_AR_SideRender-jelly?fmt=png-alpha&wid=230">
+                        <br>ARTURA
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a class="center-align" href="https://cars.mclaren.com/en/super-series/765lt-spider">
+                    <div class="img-container">
+                        <img class="dropdown-three"
+                            src="https://mclaren.scene7.com/is/image/mclaren/P14RS_SideRender2?fmt=png-alpha&wid=230">
+                        <br>765LT SPIDER
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a class="center-align" href="https://cars.mclaren.com/en/super-series/765lt">
+                    <div class="img-container"><img class="dropdown-three" class="responsive-img"
+                            src="https://mclaren.scene7.com/is/image/mclaren/765-1?fmt=png-alpha&wid=230">
+                        <br>765LT
+                    </div>
+                </a>
+            </li>
+        </ul>
+
+        <ul id="dropdown2" class="dropdown-content font-two">
+            <li>
+                <a class="center-align" href="https://cars.mclaren.com/en/new-mclaren-gt">
+                    <div class="img-container"><img class="dropdown-three"
+                            src="https://mclaren.scene7.com/is/image/mclaren/P22_SideRender-jelly?fmt=png-alpha&wid=230">
+                        <br>GT
+                    </div>
+                </a>
+            </li>
+        </ul>
+
+        <ul id="dropdown3" class="dropdown-content font-two">
+            <li>
+                <a class="center-align" href="https://cars.mclaren.com/en/ultimate-series/mclaren-elva">
+                    <div class="img-container"><img class="dropdown-three"
+                            src="https://mclaren.scene7.com/is/image/mclaren/P26-Jellybean-1?fmt=png-alpha&wid=230">
+                        <br>ELVA
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a class="center-align" href="https://cars.mclaren.com/en/ultimate-series/mclaren-senna-gtr">
+                    <div class="img-container"><img class="dropdown-three"
+                            src="https://mclaren.scene7.com/is/image/mclaren/senna-gtr-optimised-30-1?fmt=png-alpha&wid=230">
+                        <br>McLAREN SENNA GTR
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a class="center-align" href="https://cars.mclaren.com/en/ultimate-series/mclaren-speedtail">
+                    <div class="img-container"><img class="dropdown-three"
+                            src="https://mclaren.scene7.com/is/image/mclaren/Speedtail-optimised-30-1?fmt=png-alpha&wid=230">
+                        <br>SPEEDTAIL
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a class="center-align" href="https://cars.mclaren.com/en/ultimate-series/mclaren-senna">
+                    <div class="img-container"><img class="dropdown-three"
+                            src="https://mclaren.scene7.com/is/image/mclaren/senna-2?fmt=png-alpha&wid=230">
+                        <br>McLAREN SENNA
+                    </div>
+                </a>
+            </li>
+        </ul>
+
+        <ul id="dropdown4" class="dropdown-content font-two">
+            <li>
+                <a class="center-align" href="https://cars.mclaren.com/en/mclaren-solus-gt">
+                    <div class="img-container"><img class="dropdown-three"
+                            src="https://mclaren.scene7.com/is/image/mclaren/image%2058?fmt=png-alpha&wid=230">
+                        <br>SOLUS GT
+                    </div>
+                </a>
+            </li>
+        </ul>
+
+        <ul id="dropdown5" class="dropdown-content font-two">
+            <li>
+                <a class="center-align" href="https://cars.mclaren.com/en/super-series/720s-spider">
+                    <div class="img-container"><img class="dropdown-three"
+                            src="https://mclaren.scene7.com/is/image/mclaren/720s-jellybean-optimised-1?fmt=png-alpha&wid=230">
+                        <br>720S SPIDER
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a class="center-align" href="https://cars.mclaren.com/en/super-series/720s">
+                    <div class="img-container"><img class="dropdown-three"
+                            src="https://mclaren.scene7.com/is/image/mclaren/720s-coupe-jellybean-optimised-1?fmt=png-alpha&wid=230">
+                        <br>720S
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a class="center-align" href="https://cars.mclaren.com/en/sports-series/600lt-spider">
+                    <div class="img-container"><img class="dropdown-three"
+                            src="https://mclaren.scene7.com/is/image/mclaren/600-lt-spider-2?fmt=png-alpha&wid=230">
+                        <br>600LT SPIDER
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a class="center-align" href="https://cars.mclaren.com/en/sports-series/600lt">
+                    <div class="img-container"><img class="dropdown-three"
+                            src="https://mclaren.scene7.com/is/image/mclaren/600-lt-2?fmt=png-alpha&wid=230">
+                        <br>600LT
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a class="center-align" href="https://cars.mclaren.com/en/legacy/675lt-spider">
+                    <div class="img-container"><img class="dropdown-three"
+                            src="https://mclaren.scene7.com/is/image/mclaren/675-lt-spider-2?fmt=png-alpha&wid=230">
+                        <br>675LT SPIDER
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a class="center-align" href="https://cars.mclaren.com/en/legacy/675lt">
+                    <div class="img-container"><img class="dropdown-three"
+                            src="https://mclaren.scene7.com/is/image/mclaren/675-lt-2?fmt=png-alpha&wid=230">
+                        <br>675LT
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a class="center-align" href="https://cars.mclaren.com/en/sports-series/620r">
+                    <div class="img-container"><img class="dropdown-three"
+                            src="https://mclaren.scene7.com/is/image/mclaren/620-r-1?fmt=png-alpha&wid=230">
+                        <br>620R
+                    </div>
+                </a>
+            </li>
+        </ul>
+
+        <nav>
+            <div class="nav-wrapper white font-one">
+
+                <a href="https://fontawesome.com/" data-target="mobile-demo" class="sidenav-trigger">
+                    <i class="fa-solid fa-bars" style="color: #000000;"></i></a>
+
+                <ul class="sidenav" id="mobile-demo">
+
+                    <br>
+                    <!-- Dropdown Trigger SideNav-->
+                    <div class="font-one" style="padding-left: 8%">McLaren:
+                        <li><a class="dropdown-button font-two btn-flat" href="#!" data-target="dropdown1">SUPERCARS<i
+                                    class="material-icons right">chevron_right</i></a></li>
+                        <li><a class="dropdown-button font-two btn-flat" href="#!" data-target="dropdown2">GT<i
+                                    class="material-icons right">chevron_right</i></a></li>
+                        <li><a class="dropdown-button font-two btn-flat" href="#!" data-target="dropdown3">ULTIMATE<i
+                                    class="material-icons right">chevron_right</i></a></li>
+                        <li><a class="dropdown-button font-two btn-flat" href="#!" data-target="dropdown4">SOLUS GT<i
+                                    class="material-icons right">chevron_right</i></a></li>
+                        <li><a class="dropdown-button font-two btn-flat" href="#!" data-target="dropdown5">LEGACY<i
+                                    class="material-icons right">chevron_right</i></a></li>
+                    </div>
+                </ul>
+
+                <a href="#!" class="brand-logo black-text font-one" style="padding-left: 5%">McLaren</a>
+                <ul class="right hide-on-med-and-down">
+
+                    <!-- Dropdown Trigger Main-->
+
+                    <li><a class="dropdown-button font-two btn-flat" href="#!" data-target="dropdown1">SUPERCARS<i
+                                class="material-icons right">arrow_drop_down</i></a></li>
+                    <li><a class="dropdown-button font-two btn-flat" href="#!" data-target="dropdown2">GT <i
+                                class="material-icons right">arrow_drop_down</i></a></li>
+                    <li><a class="dropdown-button font-two btn-flat" href="#!" data-target="dropdown3">ULTIMATE<i
+                                class="material-icons right">arrow_drop_down</i></a></li>
+                    <li><a class="dropdown-button font-two btn-flat" href="#!" data-target="dropdown4">SOLUS GT<i
+                                class="material-icons right">arrow_drop_down</i></a></li>
+                    <li><a class="dropdown-button font-two btn-flat" href="#!" data-target="dropdown5">LEGACY<i
+                                class="material-icons right">arrow_drop_down</i></a></li>
+                </ul>
+                </ul>
+            </div>
+        </nav>
+    </nav>
+
+
+    <div class="parallax-container">
+        <div class="parallax"><img src="https://www.carscoops.com/wp-content/uploads/2023/05/McLaren-750S-main.gif">
+        </div>
+    </div>
+
+    <div class="section white">
+        <div class="row">
+            <br>
+            <br>
+            <h2 class="font-three container">NO RESTRAINTS. NO LIMITATIONS. WE DON’T
+                SIMPLY PUSH BOUNDARIES. WE COMPLETELY RETHINK THEM</h2>
+            <br>
+            <br>
+            <p class="font-two container">McLaren exists to create breathtaking performance road cars.
+                And deliver the most thrilling driving experiences imaginable.
+                <br>
+                <br>
+                With innovation at the core of all we do, every challenge starts with the same question. How can we do
+                it better? This restless spirit runs right through McLaren. And the search for perfection is evident in
+                everything we design.
+                <br>
+                <br>
+                Pioneering new technology. Breaking industry norms. Pushing the envelope in speed,
+                performance and dynamic engineering. This approach has created cars with astounding track performance
+                that are astonishingly easy to drive on the road.
+            </p>
+        </div>
+    </div>
+
+
+    </div>
+    <div class="parallax-container">
+        <div class="parallax"><img
+                src="https://d2hucwwplm5rxi.cloudfront.net/wp-content/uploads/2022/03/11084340/Make-Matters-Interesting-Facts-about-McLaren-Cover-11-03.jpg">
+        </div>
+    </div>
+
+    <div class="section white">
+        <div class="row">
+            <br>
+            <br>
+            <h2 class="font-three container">THE FULL FORCE OF McLAREN</h2>
+            <br>
+            <br>
+            <p class="font-two container">Super-light engineering. Extreme power. Race-honed agility. We pour every drop
+                of our expertise into our cars to give you the most thrilling driving experience imaginable. This is the
+                full force of McLaren.
+            </p>
+        </div>
+    </div>
+
+
+    <div class="hide-on-med-and-down" style="margin-top: 0%;"></div>
+    <div class="slider" id="slider-one">
+        <ul class="slides">
+            <li>
+                <img
+                    src="https://media.formula1.com/image/upload/content/dam/fom-website/manual/Misc/2023manual/Pre-season/February/MCL60/8.jpg">
+            </li>
+            <li>
+                <img src="https://cdn.crash.net/styles/amp_1200/s3/pa/3156266.0064.jpg?itok=m9WusZtw">
+            </li>
+            <li>
+                <img src="https://cdn-6.motorsport.com/images/amp/0L1Dqxa2/s1000/oscar-piastri-mclaren-mcl60-1.jpg">
+            </li>
+        </ul>
+    </div>
+    <br>
+
+
+    <div class="section white">
+        <div class="row">
+            <br>
+            <br>
+            <h2 class="font-three container">JOIN THE McLAREN FAMILY</h2>
+            <br>
+            <br>
+            <p class="font-two container">Subscribe to our newsletter to be kept up to date with all the latest McLaren
+                news. You may unsubscribe from these communications at any time. For information on how to unsubscribe,
+                as well as our privacy practices and commitment to protecting your privacy, please review McLarens
+                Privacy Policy.</p>
+
+            </p>
+        </div>
+    </div>
+
+
+    <div class="divider"></div>
+
+    <footer class="page-footer white" style="margin-bottom: 0%; width:100vw">
+        <div class="container">
+            <div class="row" style="margin-bottom: 0%;">
+                <div class="col s12 center-align black-text">
+                    <p>2023 McLaren Automotives®</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!-- Jquery CDN -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <script>
+
+        $(document).ready(function () {
+
+            $('.materialboxed').materialbox();
+
+            $('.sidenav').sidenav();
+
+            $('#slider-one').slider({ height: 550 });
+
+            $('.tabs').tabs();
+
+            $('.dropdown-button').dropdown({
+                inDuration: 300,
+                outDuration: 225,
+                constrainWidth: false, // Does not change width of dropdown to that of the activator
+                hover: true, // Activate on hover
+                gutter: 500, // Spacing from edge
+                belowOrigin: true, // Displays dropdown below the button
+                alignment: 'left', // Displays dropdown with edge aligned to the left of button
+                stopPropagation: true // Stops event propagation
+            }
+            );
+            $('.parallax').parallax();
+
+        });
+
+    </script>
+
+</body>
+
+</html>
